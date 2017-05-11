@@ -140,8 +140,8 @@ namespace HoloToolkit.Unity.SpatialMapping
                 }
                 this.gameObject.transform.rotation = Quaternion.Euler(-90, 0, 0);
                 this.transform.GetChild(1).transform.position = new Vector3(0, -1.5f, 0);
-                this.transform.GetChild(0).gameObject.layer = 0;
-                this.transform.GetChild(1).gameObject.layer = 0;
+                this.transform.GetChild(0).gameObject.layer = 31;
+                this.transform.GetChild(1).gameObject.layer = 31;
                 //cube.gameObject.GetComponent<CubeCommands>().setMaterial();
 
 
