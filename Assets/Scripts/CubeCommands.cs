@@ -14,6 +14,8 @@ public class CubeCommands : MonoBehaviour
     {
 
         delay = 5.0f;
+		 Physics.IgnoreLayerCollision(9, 31);
+        Debug.Log(Physics.GetIgnoreLayerCollision(9, 31));
     }
 
 
